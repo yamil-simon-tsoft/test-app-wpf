@@ -1,0 +1,170 @@
+# Archivos y directorios a ignorar por Git
+
+# Entornos virtuales
+venv/
+.venv/
+env/
+.env/
+ENV/
+env.bak/
+venv.bak/
+
+# Archivos de configuración específicos del IDE
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*~
+
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Archivos de pruebas y cobertura
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Reportes de pruebas
+reports/
+logs/
+*.log
+test-results/
+allure-results/
+allure-reports/
+
+# Screenshots de pruebas
+screenshots/
+*.png
+*.jpg
+*.jpeg
+*.gif
+!docs/images/*.png
+!docs/images/*.jpg
+
+# Archivos de configuración específicos
+.env
+.env.local
+.env.*.local
+config.local.py
+settings.local.py
+
+# Gauge específicos
+.gauge/
+gauge_bin/
+
+# Archivos temporales
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Base de datos locales
+*.db
+*.sqlite
+*.sqlite3
+
+# Archivos de Office temporales
+~$*.xlsx
+~$*.docx
+~$*.pptx
+
+# Archivos de backup
+*.bak
+*.backup
+*.old
+
+# Logs de aplicación
+app.log
+debug.log
+error.log
+automation.log
+
+# Datos de prueba sensibles
+test_data/sensitive/
+credentials/
+secrets/
+
+# Archivos de sistema Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Archivos de sistema macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+# Archivos específicos de herramientas
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Archivos de documentación generados
+docs/_build/
+site/
+
+# Archivos de configuración de npm (si se usan herramientas de Node.js)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Variables de entorno específicas del entorno
+.env.production
+.env.staging
+.env.development
+
+# Archivos de configuración específicos del usuario
+user_config.py
+local_settings.py
+
+# Archivos de resultados de benchmark
+benchmark_results/
+
+# Archivos de profiling
+*.prof
+*.profile
+
+# Archivos de certificados y claves
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# Archivos específicos de WinAppDriver
+WinAppDriverSession*.log

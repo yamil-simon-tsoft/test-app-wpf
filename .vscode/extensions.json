@@ -1,0 +1,25 @@
+{
+    "recommendations": [
+        "ms-python.python",
+        "ms-python.flake8",
+        "ms-python.black-formatter",
+        "ms-python.isort",
+        "ms-python.mypy-type-checker",
+        "ms-vscode.test-adapter-converter",
+        "hbenl.vscode-test-explorer",
+        "getgauge.gauge",
+        "ms-vscode.vscode-json",
+        "ms-python.debugpy",
+        "njpwerner.autodocstring",
+        "ms-vscode.powershell",
+        "redhat.vscode-yaml",
+        "ms-vscode.hexeditor",
+        "visualstudioexptteam.vscodeintellicode",
+        "ms-python.vscode-pylance",
+        "donjayamanne.githistory",
+        "eamodio.gitlens",
+        "formulahendry.auto-rename-tag",
+        "ms-vscode.theme-predawn",
+        "pkief.material-icon-theme"
+    ]
+}
